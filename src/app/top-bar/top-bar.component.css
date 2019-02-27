@@ -1,3 +1,9 @@
 *{
   background-color: aqua;
 }
+button{
+  border:none;
+}
+.botonBuscar{
+  height: 24px;
+}
