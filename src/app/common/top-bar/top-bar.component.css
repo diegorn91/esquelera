@@ -1,0 +1,27 @@
+*{
+  display: flex;
+  align-items: center;
+}
+button{
+  border:none;
+  background-color: white;
+}
+button:hover{
+  background-color: darkgrey;
+  transition: 1s;
+}
+.botonBuscar{
+  height: 30px;
+}
+div > div {
+  position: relative;
+  height: fit-content;
+  margin-left: auto;
+}
+div > div > form > input {
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
