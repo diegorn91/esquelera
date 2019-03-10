@@ -1,8 +1,11 @@
-<ul>
-  <li>{{ esquela.nombre }}</li>
-  <!--<li *ngFor='let esquela of Esquela'>-->
-    <!--<div>-->
-      <!--<div>{{ esquela.nombre }}</div>-->
-    <!--</div>-->
-  <!--</li>-->
-</ul>
+<div class="contenedor">
+  <div class="esquela" *ngFor="let esquela of esquelas">
+    <div class="cabecera">
+      <img src="../../../assets/cruz.png">
+      {{esquela.nombre}} {{esquela.apellidos}}
+    </div>
+    <div class="cuerpo">
+      paga el día {{esquela.fecha_pago}}
+    </div>
+  </div>
+</div>
