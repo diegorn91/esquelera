@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LowerBarComponent } from './common/lower-bar/lower-bar.component';
 import { TopBarComponent } from './common/top-bar/top-bar.component';
 import { MainComponent } from './common/main/main.component';
+import { EsquelasComponent } from './non-common/esquelas/esquelas.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MainComponent } from './common/main/main.component';
     AppComponent,
     LowerBarComponent,
     TopBarComponent,
-    MainComponent
+    MainComponent,
+    EsquelasComponent
   ],
   imports: [
     BrowserModule
